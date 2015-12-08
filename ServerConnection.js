@@ -24,7 +24,7 @@ ServerConnection.prototype.to = function (newState) {
 	
 	// does current state (we will switch from it) has onExitHandler?
 	if (this.currentState && this.states[this.currentState].onExitHandler && typeof this.states[this.currentState].onExitHandler == 'function') { 
-			this.states[this.currentState].onExitHandler.call(this); 
+		this.states[this.currentState].onExitHandler.call(this); 
 	}
 
 	// so, now currentState set to newState
