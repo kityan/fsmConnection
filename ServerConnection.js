@@ -17,7 +17,7 @@ var ServerConnection = function (socket, config){
 
 }
 
-// |-------------------- prototype --------------------->
+// |---------------------------------------------------->
 
 // switching state
 ServerConnection.prototype.to = function (newState) {
@@ -51,7 +51,7 @@ ServerConnection.prototype.to = function (newState) {
 // loopback for state with undefined handleInput
 ServerConnection.prototype.noInputHandler = function(){};
 
-// <-------------------- prototype ---------------------|
+// <----------------------------------------------------|
 
 
 
